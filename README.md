@@ -19,8 +19,8 @@ If your machine has less than ~30G of memory, then modify run-medium.sh to repla
 
 ## PREPARING NEW DATA SETS
 1.  Put your data into the same format as that in data/questions.json and replace that file with your own
-  - note that all numbers must be in decimal format in all locations, the natural language of the question, the equations, and the numerical solutions
-  - the numbers in the equations should exactly match those in the natural language (i.e. same number of significant digits, etc.)
+  * note that all numbers must be in decimal format in all locations, the natural language of the question, the equations, and the numerical solutions
+  * the numbers in the equations should exactly match those in the natural language (i.e. same number of significant digits, etc.)
 
 2.  Generate the dependency parses for each question as follows:
  a. `./run.sh` Question  
