@@ -3,7 +3,7 @@
 code from http://groups.csail.mit.edu/rbg/code/wordprobs/
 
 
-# Info from README.txt
+# Info from [README.txt](README.txt)
 
 ## BASIC RUNNING
 To run the code on the dataset from the paper:
@@ -18,7 +18,7 @@ So to test on fold 0 run:
 If your machine has less than ~30G of memory, then modify run-medium.sh to replace both instances of 25000 with the number of megs of memory you want to allocate to the java virtual machine
 
 ## PREPARING NEW DATA SETS
-1.  Put your data into the same format as that in data/questions.json and replace that file with your own
+1.  Put your data into the same format as that in [data/questions.json](`data/questions.json`) and replace that file with your own
   * note that all numbers must be in decimal format in all locations, the natural language of the question, the equations, and the numerical solutions
   * the numbers in the equations should exactly match those in the natural language (i.e. same number of significant digits, etc.)
 
